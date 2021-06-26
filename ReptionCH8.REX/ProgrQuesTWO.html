@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ProgQuesTwo </title>
+</head>
+<script>
+ function integerPhrase(){
+    var int = prompt("Enter any Positive Integer!");
+    var phrase = prompt("Enter any word/Phrase!");
+    var i=1;
+       while(i<=int){
+       //document.getElementById('answer').innerHTML = phrase
+        document.write(phrase + " ");
+        i++;
+       }
+     }
+</script>
+<body>
+<h3><strong>Programming Question Chapter 8 # Two</strong></h3>
+Enter any Positive Integer! <input type="text" id="integer"><br>
+Enter any word/phrase! <input type="text" id="phrase"><br>
+<button type="button" onclick="integerPhrase()"> Result </button><br>
+<div id="answer"></div>
+</body>
+</html>

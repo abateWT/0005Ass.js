@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> ProgrammingQuestFOUR </title>
+</head>
+<script>
+
+  function oddSum(){
+    var ints = prompt("Please Enter Positive Number!");
+    var i=1;
+    var sum = 0;
+    while(i <= ints){
+     if(i % 2 != 0){
+        i++;
+    sum = sum + i;
+    document.write(sum + " ");
+      }
+    }
+  }
+</script>
+<body>
+<h2><strong>Programming Question Chapter 8 # 4 </strong></h2>
+Please Enter Positive Number! <input type="text" id="anyInteger"><br>
+<button type="button" id="oddSum()"> ANALYSIS SUM </button><br>
+<div id="answer"></div>
+</body>
+</html>
